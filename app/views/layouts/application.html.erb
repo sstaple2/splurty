@@ -33,7 +33,21 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        <%= link_to "This isn't enough, I need more", "#",  class: 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Proudly hacked <a href="http://google.com"> James &amp; Giant Peach</a><br />
+        Proudly hacked <a href="http://google.com"> James &amp; Giant Peach</a>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
