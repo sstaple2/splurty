@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
 
 .clear {
   clear:both;
@@ -31,6 +33,15 @@
   padding-top: 26px;
 }
 
+h1 {
+font-family: 'Bungee', cursive;
+}
+
+h2 {
+font-family: 'Bungee', cursive;
+font-size: 100px;
+}
+
 hr {
   clear:both;
 }
@@ -43,6 +54,7 @@ hr {
     color:black;
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+    font-family: 'Bungee', cursive;
   }
 
   header {
